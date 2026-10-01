@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.1-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.8.1%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v0.8.1 Stable"></a>
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.2-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.8.2%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v0.8.2 Stable"></a>
   <img src="https://img.shields.io/badge/Platform-macOS%2012.0%2B-black?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 12+">
   <img src="https://img.shields.io/badge/Architecture-Apple%20Silicon%20(arm64)-1e293b?style=for-the-badge" alt="Apple Silicon">
-  <img src="https://img.shields.io/badge/Engine-Local%20Voice%20Engine-f59e0b?style=for-the-badge" alt="Voice Engine">
+  <img src="https://img.shields.io/badge/Engine-Prompt%20Intelligence%20%2B%20Accent%20Primed-f59e0b?style=for-the-badge" alt="Prompt Intelligence">
   <img src="https://img.shields.io/badge/Privacy-Zero%20Audio%20Uploads-3b82f6?style=for-the-badge" alt="100% Local">
 </p>
 
@@ -32,12 +32,12 @@
 
 # Download Speakout
 
-### **Speakout v0.8.1 for Apple Silicon**
+### **Speakout v0.8.2 for Apple Silicon**
 Universal Native Build for **M1 · M2 · M3 · M4**
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.1-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.1%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.2-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.2%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
@@ -45,13 +45,13 @@ Universal Native Build for **M1 · M2 · M3 · M4**
 
 | Specification | Target Details |
 | :--- | :--- |
-| **Package File** | [`Speakout-v0.8.1-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.1-apple-silicon.dmg) |
-| **Version** | `0.8.1 Stable (Production-Sealed Bundle)` |
+| **Package File** | [`Speakout-v0.8.2-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.2-apple-silicon.dmg) |
+| **Version** | `0.8.2 Stable (Production-Sealed Bundle)` |
 | **Architecture** | Apple Silicon (`arm64`) |
-| **Package Size** | `5.28 MB` (5,278,343 bytes) |
+| **Package Size** | `5.28 MB` (5,278,853 bytes) |
 | **Hardware Target** | Apple Silicon Macs (M1 / M2 / M3 / M4) · macOS 12.0+ |
 | **Empirical Test Environment** | MacBook Air M2 / macOS 15.1 Sequoia |
-| **SHA-256 Checksum** | `47a46b4207779fba7268bc13fa981ee704dec26447ae4866361800d5315d268d` |
+| **SHA-256 Checksum** | `1a5a4178aacdf1828908d55dc57f98408186f4071d2d795f22ecf3cc21ad0c87` |
 
 </div>
 
@@ -199,13 +199,13 @@ A local-first pipeline built to stay completely out of your way.
 
 # Get started in 60 seconds.
 
-1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.1-apple-silicon.dmg)**.
-2. Open `Speakout-v0.8.1-apple-silicon.dmg`.
+1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.2-apple-silicon.dmg)**.
+2. Open `Speakout-v0.8.2-apple-silicon.dmg`.
 3. Drag **Speakout** into your **Applications** folder.
 4. **First Launch (macOS Gatekeeper Verification)**:
-   - **Option A (Quickest)**: Right-click (or Control-click) `Speakout` in Applications → click **Open** → click **Open**.
-   - **Option B (System Settings)**: If prompted with `"Apple could not verify Speakout.app"`, open **System Settings → Privacy & Security**, scroll down to the Security section, and click **Open Anyway**.
-   - **Option C (Terminal)**: Run `xattr -cr /Applications/Speakout.app` once.
+   - **Option A (Automated)**: Double-click **`Open Speakout (First Launch).command`** directly inside the DMG window.
+   - **Option B (Standard Finder)**: Right-click (or Control-click) `Speakout` in Applications → click **Open** → click **Open**.
+   - **Option C (System Settings)**: If prompted with `"Apple could not verify Speakout.app"`, open **System Settings → Privacy & Security**, scroll down to the Security section, and click **Open Anyway**.
 5. Grant Microphone & Accessibility permissions when requested.
 6. Speakout securely streams and initializes the local voice models directly inside the application at maximum Wi-Fi speed with a live progress indicator.
 7. Hold **Fn** and begin speaking into any app.
@@ -219,8 +219,8 @@ A local-first pipeline built to stay completely out of your way.
 # Ready to stop typing?
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.1-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.1-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.2-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.2-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
@@ -246,15 +246,15 @@ A local-first pipeline built to stay completely out of your way.
 * **GUI Shell**: Frosted liquid-glass Tauri v2 interface
 
 ### Verification Hashes
-* **File**: `Speakout-v0.8.1-apple-silicon.dmg`
-* **Size**: `5,278,343` bytes
-* **SHA-256**: `47a46b4207779fba7268bc13fa981ee704dec26447ae4866361800d5315d268d`
+* **File**: `Speakout-v0.8.2-apple-silicon.dmg`
+* **Size**: `5,278,853` bytes
+* **SHA-256**: `1a5a4178aacdf1828908d55dc57f98408186f4071d2d795f22ecf3cc21ad0c87`
 * **Image Checksum**: `hdiutil verify: VALID`
 
 ### Production Release Notice
-* Speakout v0.8.1 is a local-first release.
+* Speakout v0.8.2 is a local-first release with Prompt Intelligence and Indian English accent acoustic priming.
 * This build is signed with verified macOS entitlements and sealed bundle integrity.
-* First-launch Gatekeeper opening instructions are included inside the DMG and documentation.
+* First-launch Gatekeeper automated launcher and opening instructions are included inside the DMG and documentation.
 
 </details>
 
