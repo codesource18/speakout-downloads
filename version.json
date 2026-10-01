@@ -1,9 +1,9 @@
 {
-  "version": "0.8.3",
-  "pub_date": "2026-10-01T15:50:00Z",
-  "notes": "Speakout v0.8.3 Stable — Apple Silicon. Pure clean macOS installer bundle, multilingual support (Telugu, Hindi, Indian/Australian/Global English), Next-Gen Prompt Intelligence, and high-performance Metal acceleration.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg",
-  "asset_name": "Speakout-v0.8.3-apple-silicon.dmg",
-  "asset_size": 5280738,
+  "version": "0.8.4",
+  "pub_date": "2026-10-01T16:00:00Z",
+  "notes": "Speakout v0.8.4 Stable — Apple Silicon. Professional UI redesign with SVG iconography, private on-device speech engine, multilingual Telugu, Hindi, Indian/Global English support, and streamlined macOS installer bundle.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.4-apple-silicon.dmg",
+  "asset_name": "Speakout-v0.8.4-apple-silicon.dmg",
+  "asset_size": 5282160,
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }

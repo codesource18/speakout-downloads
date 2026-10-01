@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.8.3%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v0.8.3 Stable"></a>
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.4-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.8.4%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v0.8.4 Stable"></a>
   <img src="https://img.shields.io/badge/Platform-macOS%2012.0%2B-black?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 12+">
   <img src="https://img.shields.io/badge/Architecture-Apple%20Silicon%20(arm64)-1e293b?style=for-the-badge" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/Languages-Telugu%20%C2%B7%20Hindi%20%C2%B7%20English-f59e0b?style=for-the-badge" alt="Multilingual">
@@ -32,12 +32,12 @@
 
 # Download Speakout
 
-### **Speakout v0.8.3 for Apple Silicon**
+### **Speakout v0.8.4 for Apple Silicon**
 Universal Native Build for **M1 · M2 · M3 · M4**
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.3%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.4-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.4%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
@@ -45,13 +45,13 @@ Universal Native Build for **M1 · M2 · M3 · M4**
 
 | Specification | Target Details |
 | :--- | :--- |
-| **Package File** | [`Speakout-v0.8.3-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg) |
-| **Version** | `0.8.3 Stable (Production-Sealed Bundle)` |
+| **Package File** | [`Speakout-v0.8.4-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.4-apple-silicon.dmg) |
+| **Version** | `0.8.4 Stable (Production-Sealed Bundle)` |
 | **Architecture** | Apple Silicon (`arm64`) |
-| **Package Size** | `5.28 MB` (5,280,738 bytes) |
+| **Package Size** | `5.28 MB` (5,282,160 bytes) |
 | **Hardware Target** | Apple Silicon Macs (M1 / M2 / M3 / M4) · macOS 12.0+ |
 | **Empirical Test Environment** | MacBook Air M2 / macOS 15.1 Sequoia |
-| **SHA-256 Checksum** | `63569141962cc2408322480ba82460bb04ca57747ea123866e4b6d096dddf9e4` |
+| **SHA-256 Checksum** | `83e285642ffd3d0f075c2183dcfa2643ad4ee7a69ded82755b7c37f966aa31c8` |
 
 </div>
 
@@ -199,8 +199,8 @@ A local-first pipeline built to stay completely out of your way.
 
 # Get started in 60 seconds.
 
-1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg)**.
-2. Open `Speakout-v0.8.3-apple-silicon.dmg`.
+1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.4-apple-silicon.dmg)**.
+2. Open `Speakout-v0.8.4-apple-silicon.dmg`.
 3. Drag **Speakout** into your **Applications** folder.
 4. Launch **Speakout** from your Applications folder.
    *(On macOS Sequoia, if prompted on first open, right-click `Speakout` $\rightarrow$ click **Open**, or in System Settings $\rightarrow$ Privacy & Security $\rightarrow$ click **Open Anyway**).*
@@ -217,8 +217,8 @@ A local-first pipeline built to stay completely out of your way.
 # Ready to stop typing?
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.3-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.4-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.4-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
@@ -242,16 +242,16 @@ A local-first pipeline built to stay completely out of your way.
 * **Languages Supported**: Telugu, Hindi, Indian English, Australian English, US/UK/Global English
 * **Minimum OS**: macOS 12.0 Monterey or later
 * **Runtime**: Native Rust engine with on-device hardware acceleration
-* **GUI Shell**: Frosted liquid-glass Tauri v2 interface
+* **GUI Shell**: Frosted liquid-glass Tauri v2 interface with professional SVG iconography
 
 ### Verification Hashes
-* **File**: `Speakout-v0.8.3-apple-silicon.dmg`
-* **Size**: `5,280,738` bytes
-* **SHA-256**: `63569141962cc2408322480ba82460bb04ca57747ea123866e4b6d096dddf9e4`
+* **File**: `Speakout-v0.8.4-apple-silicon.dmg`
+* **Size**: `5,282,160` bytes
+* **SHA-256**: `83e285642ffd3d0f075c2183dcfa2643ad4ee7a69ded82755b7c37f966aa31c8`
 * **Image Checksum**: `hdiutil verify: VALID`
 
 ### Production Release Notice
-* Speakout v0.8.3 is a local-first release with multilingual Telugu, Hindi, Indian/Global English acoustic priming and Prompt Intelligence.
+* Speakout v0.8.4 is a local-first release with professional UI design, sanitized private engine architecture, and multilingual Telugu, Hindi, and Global English acoustic priming.
 * Clean standard macOS installer DMG containing exclusively `Speakout.app` and `Applications` symlink.
 * Signed with verified macOS entitlements and sealed bundle integrity.
 
