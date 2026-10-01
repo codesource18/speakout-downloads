@@ -1,9 +1,9 @@
 {
-  "version": "0.8.0",
-  "pub_date": "2026-10-01T15:00:00Z",
-  "notes": "Speakout v0.8.0 Stable — Apple Silicon. High-speed in-app background streaming engine download with real-time green progress tracking, zero terminal windows, zero Homebrew, sealed signature, and private local architecture.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg",
-  "asset_name": "Speakout-v0.8.0-apple-silicon.dmg",
-  "asset_size": 5279047,
+  "version": "0.8.1",
+  "pub_date": "2026-10-01T15:30:00Z",
+  "notes": "Speakout v0.8.1 Stable — Apple Silicon. Native reverse-DNS bundle identifier com.speakout.desktop, sealed signature with audio input entitlements, background streaming engine download, and macOS Sequoia first-launch onboarding instructions.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.1-apple-silicon.dmg",
+  "asset_name": "Speakout-v0.8.1-apple-silicon.dmg",
+  "asset_size": 5278343,
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
