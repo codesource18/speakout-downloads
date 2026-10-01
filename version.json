@@ -1,9 +1,9 @@
 {
-  "version": "0.8.5",
-  "pub_date": "2026-10-01T16:15:00Z",
-  "notes": "Speakout v0.8.5 Stable — Apple Silicon. Complete Wispr Flow Prompt Intelligence benchmark implementation: on-the-fly mid-sentence corrections (e.g. numbers, dates, tech stacks), app-aware contextual formatting for IDEs (Cursor/VS Code) and AI chat tools (ChatGPT/Claude), verbal snippet expansion frameworks, sub-second delivery (>220 WPM equivalent), and pristine macOS bundle.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5-apple-silicon.dmg",
-  "asset_name": "Speakout-v0.8.5-apple-silicon.dmg",
-  "asset_size": 5286607,
+  "version": "8.5.1",
+  "pub_date": "2026-10-01T16:35:00Z",
+  "notes": "Speakout v8.5.1 Stable — Apple Silicon. Hardened Runtime pipeline, inside-out signing architecture, verified microphone and JIT entitlements, Gatekeeper first-launch helper, and Wispr Flow prompt intelligence benchmarks.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg",
+  "asset_name": "Speakout-v8.5.1-apple-silicon.dmg",
+  "asset_size": 5268457,
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }

@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.8.5%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v0.8.5 Stable"></a>
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v8.5.1%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v8.5.1 Stable"></a>
   <img src="https://img.shields.io/badge/Platform-macOS%2012.0%2B-black?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 12+">
   <img src="https://img.shields.io/badge/Architecture-Apple%20Silicon%20(arm64)-1e293b?style=for-the-badge" alt="Apple Silicon">
-  <img src="https://img.shields.io/badge/Intelligence-Wispr%20Flow%20Benchmark-7c3aed?style=for-the-badge" alt="Prompt Intelligence">
+  <img src="https://img.shields.io/badge/Security-Hardened%20Runtime-blue?style=for-the-badge&logo=apple" alt="Hardened Runtime">
   <img src="https://img.shields.io/badge/Privacy-Zero%20Audio%20Uploads-3b82f6?style=for-the-badge" alt="100% Local">
 </p>
 
@@ -32,12 +32,12 @@
 
 # Download Speakout
 
-### **Speakout v0.8.5 for Apple Silicon**
+### **Speakout v8.5.1 (v0.8.5.1) for Apple Silicon**
 Universal Native Build for **M1 · M2 · M3 · M4**
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.5%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v8.5.1%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
@@ -45,13 +45,13 @@ Universal Native Build for **M1 · M2 · M3 · M4**
 
 | Specification | Target Details |
 | :--- | :--- |
-| **Package File** | [`Speakout-v0.8.5-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5-apple-silicon.dmg) |
-| **Version** | `0.8.5 Stable (Wispr Flow Prompt Intelligence Edition)` |
+| **Package File** | [`Speakout-v8.5.1-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg) · [Mirror Link (v0.8.5.1)](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5.1-apple-silicon.dmg) |
+| **Version** | `8.5.1 Stable (Hardened Runtime & Gatekeeper Helper Edition)` |
 | **Architecture** | Apple Silicon (`arm64`) |
-| **Package Size** | `5.28 MB` (5,286,607 bytes) |
+| **Package Size** | `5.02 MB` (5,268,457 bytes) |
 | **Hardware Target** | Apple Silicon Macs (M1 / M2 / M3 / M4) · macOS 12.0+ |
 | **Empirical Test Environment** | MacBook Air M2 / macOS 15.1 Sequoia |
-| **SHA-256 Checksum** | `034124673392b3ffa25255c766c1499e1a178cc1215a05cd91fdc4f0905e1440` |
+| **SHA-256 Checksum** | `3753908de44f936ea9ed9fe5fc4b9f6f19f99238be510183d77568852dec6073` |
 
 </div>
 
@@ -199,11 +199,11 @@ A local-first pipeline built to stay completely out of your way.
 
 # Get started in 60 seconds.
 
-1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5-apple-silicon.dmg)**.
-2. Open `Speakout-v0.8.5-apple-silicon.dmg`.
+1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg)**.
+2. Open `Speakout-v8.5.1-apple-silicon.dmg`.
 3. Drag **Speakout** into your **Applications** folder.
 4. Launch **Speakout** from your Applications folder.
-   *(On macOS Sequoia, if prompted on first open, right-click `Speakout` $\rightarrow$ click **Open**, or in System Settings $\rightarrow$ Privacy & Security $\rightarrow$ click **Open Anyway**).*
+   *(On macOS Sequoia, if prompted with Gatekeeper warning, simply double-click the included `Open Speakout (First Launch).command` inside the DMG, or go to System Settings $\rightarrow$ Privacy & Security $\rightarrow$ click **Open Anyway**).*
 5. Grant Microphone & Accessibility permissions when requested.
 6. Speakout securely initializes the local speech engine directly inside the application at maximum Wi-Fi speed with a live progress indicator.
 7. Hold **Fn** and begin speaking into any app.
@@ -217,13 +217,13 @@ A local-first pipeline built to stay completely out of your way.
 # Ready to stop typing?
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.5-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.5-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v8.5.1-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
 <p align="center">
-  <strong>Apple Silicon Native · macOS 12.0+ · Wispr Flow Prompt Intelligence Edition</strong>
+  <strong>Apple Silicon Native · macOS 12.0+ · Hardened Runtime &amp; Prompt Intelligence</strong>
 </p>
 
 ---
@@ -239,20 +239,20 @@ A local-first pipeline built to stay completely out of your way.
 * **Target Architecture**: macOS Apple Silicon (`arm64`)
 * **Bundle Identifier**: `com.speakout.desktop`
 * **Declared Scope**: M1, M2, M3, M4 Macs
+* **Security & Hardened Runtime**: Inside-out codesigned executable and bundle with Hardened Runtime (`--options runtime`), microphone input entitlement, and JIT entitlement.
 * **Prompt Intelligence**: Full Wispr Flow benchmark with automatic filler cleanup, mid-sentence self-corrections ("X actually Y"), app-aware contextual formatting for IDEs and AI tools, verbal snippet templates, and sub-second delivery (>220 WPM equivalent).
 * **Minimum OS**: macOS 12.0 Monterey or later
 * **Runtime**: Native Rust engine with on-device hardware acceleration
 * **GUI Shell**: Frosted liquid-glass Tauri v2 interface with professional SVG iconography
 
 ### Verification Hashes
-* **File**: `Speakout-v0.8.5-apple-silicon.dmg`
-* **Size**: `5,286,607` bytes
-* **SHA-256**: `034124673392b3ffa25255c766c1499e1a178cc1215a05cd91fdc4f0905e1440`
+* **File**: `Speakout-v8.5.1-apple-silicon.dmg`
+* **Size**: `5,268,457` bytes
+* **SHA-256**: `3753908de44f936ea9ed9fe5fc4b9f6f19f99238be510183d77568852dec6073`
 * **Image Checksum**: `hdiutil verify: VALID`
 
 ### Production Release Notice
-* Speakout v0.8.5 is a production release with Prompt Intelligence benchmarks, app-aware formatting, verbal snippets, private engine architecture, and multilingual Telugu, Hindi, and Global English acoustic priming.
-* Clean standard macOS installer DMG containing exclusively `Speakout.app` and `Applications` symlink.
+* Speakout v8.5.1 is a production release with Hardened Runtime architecture, verified entitlements, Gatekeeper first-launch helper, Prompt Intelligence benchmarks, and multilingual Telugu, Hindi, and Global English acoustic priming.
 * Signed with verified macOS entitlements and sealed bundle integrity.
 
 </details>
