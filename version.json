@@ -1,10 +1,10 @@
 {
-  "version": "8.5.1",
-  "pub_date": "2026-10-01T17:02:30Z",
-  "notes": "Speakout v8.5.1 Stable — Apple Silicon. Ad-hoc inside-out signed with audio entitlements, Tauri updater artifacts, clean 3-click DMG guide, and Wispr Flow prompt intelligence.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg",
-  "asset_name": "Speakout-v8.5.1-apple-silicon.dmg",
-  "asset_size": 5328796,
-  "sha256": "6b94900b1358903e8390c381844fe7baef989171d8efa9fa53fd4bc897db1df9",
+  "version": "0.9.0",
+  "pub_date": "2026-10-01T17:47:12Z",
+  "notes": "Speakout v0.9.0 Beta — Voice Engine v2 (Apple Silicon). Extreme low-latency streaming decoding, trailing audio flush, Indian English & multilingual priming, and Prompt Engineer IR.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.9.0-apple-silicon.dmg",
+  "asset_name": "Speakout-v0.9.0-apple-silicon.dmg",
+  "asset_size": 5343706,
+  "sha256": "882263b6357a0ba9ed77cd79114a37c988b950786e231159d709bab28d007023",
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
