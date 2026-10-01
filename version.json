@@ -1,9 +1,9 @@
 {
-  "version": "0.8.2",
-  "pub_date": "2026-10-01T15:35:00Z",
-  "notes": "Speakout v0.8.2 Stable — Apple Silicon. Features the next-generation Prompt Intelligence engine for idea-to-prompt synthesis, Indian English accent acoustic priming, fast-path conversational dictation, and DMG first-launch Gatekeeper automated launcher.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.2-apple-silicon.dmg",
-  "asset_name": "Speakout-v0.8.2-apple-silicon.dmg",
-  "asset_size": 5278853,
+  "version": "0.8.3",
+  "pub_date": "2026-10-01T15:50:00Z",
+  "notes": "Speakout v0.8.3 Stable — Apple Silicon. Pure clean macOS installer bundle, multilingual support (Telugu, Hindi, Indian/Australian/Global English), Next-Gen Prompt Intelligence, and high-performance Metal acceleration.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.3-apple-silicon.dmg",
+  "asset_name": "Speakout-v0.8.3-apple-silicon.dmg",
+  "asset_size": 5280738,
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
