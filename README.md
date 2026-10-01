@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.7.0%20Beta-f59e0b?style=for-the-badge&logo=apple&logoColor=white" alt="v0.7.0 Beta"></a>
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg"><img src="https://img.shields.io/badge/Release-v0.8.0%20Stable-10b981?style=for-the-badge&logo=apple&logoColor=white" alt="v0.8.0 Stable"></a>
   <img src="https://img.shields.io/badge/Platform-macOS%2012.0%2B-black?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 12+">
   <img src="https://img.shields.io/badge/Architecture-Apple%20Silicon%20(arm64)-1e293b?style=for-the-badge" alt="Apple Silicon">
-  <img src="https://img.shields.io/badge/Engine-Local%20Whisper%20Metal-10b981?style=for-the-badge" alt="Metal GPU">
+  <img src="https://img.shields.io/badge/Engine-Local%20Voice%20Engine-f59e0b?style=for-the-badge" alt="Voice Engine">
   <img src="https://img.shields.io/badge/Privacy-Zero%20Audio%20Uploads-3b82f6?style=for-the-badge" alt="100% Local">
 </p>
 
@@ -32,12 +32,12 @@
 
 # Download Speakout
 
-### **Speakout v0.7.0 Beta for Apple Silicon**
+### **Speakout v0.8.0 for Apple Silicon**
 Universal Native Build for **M1 · M2 · M3 · M4**
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.7.0%20Beta%20(.dmg)-f59e0b?style=for-the-badge&labelColor=181b26&color=f59e0b" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.0%20(.dmg)-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
@@ -45,13 +45,13 @@ Universal Native Build for **M1 · M2 · M3 · M4**
 
 | Specification | Target Details |
 | :--- | :--- |
-| **Package File** | [`Speakout-v0.7.0-beta-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg) |
-| **Version** | `0.7.0 Beta (Production-Sealed Bundle)` |
+| **Package File** | [`Speakout-v0.8.0-apple-silicon.dmg`](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg) |
+| **Version** | `0.8.0 Stable (Production-Sealed Bundle)` |
 | **Architecture** | Apple Silicon (`arm64`) |
-| **Package Size** | `5.28 MB` (5,276,123 bytes) |
+| **Package Size** | `5.28 MB` (5,279,047 bytes) |
 | **Hardware Target** | Apple Silicon Macs (M1 / M2 / M3 / M4) · macOS 12.0+ |
 | **Empirical Test Environment** | MacBook Air M2 / macOS 15.1 Sequoia |
-| **SHA-256 Checksum** | `68730479995af8c51f72333fe68f8dbb44160d4d7affabbeb2714343040fc498` |
+| **SHA-256 Checksum** | `0ffd78f87b8f58564d030e81a1446c4532017b324743b24f148487f30f7ad09b` |
 
 </div>
 
@@ -83,7 +83,7 @@ Speakout cleans up your words, removes fillers, applies grammar and intent, and 
 
 ### The 5 Native Hubs:
 
-* **🏠 Home / Dashboard** — Live dictation metrics, real-time Metal GPU health, and your latest session activity.
+* **🏠 Home / Dashboard** — Live dictation metrics, real-time speech engine health, and your latest session activity.
 * **📜 History** — Instant, searchable archive of your previous dictations, word counts, and execution timestamps.
 * **🧠 Prompt Intelligence** — Deterministic speech intelligence that formats spoken bullet points, numbered lists, and emails instantly.
 * **⚙️ Settings** — Custom push-to-talk hotkeys, personal dictionary terms, and microphone calibration.
@@ -111,7 +111,7 @@ Speakout cleans up your words, removes fillers, applies grammar and intent, and 
     </td>
     <td width="25%" valign="top">
       <h3>03 · Release</h3>
-      <p>Release the key. The on-device Whisper Metal engine processes speech with sub-second latency.</p>
+      <p>Release the key. The on-device engine processes speech with sub-second latency.</p>
     </td>
     <td width="25%" valign="top">
       <h3>04 · Done</h3>
@@ -126,7 +126,7 @@ Speakout cleans up your words, removes fillers, applies grammar and intent, and 
 
 # Built to disappear.
 
-Speakout runs locally with Apple Silicon Metal acceleration, delivering near-instant transcription speed without draining battery life or sending audio to third-party servers.
+Speakout runs locally with Apple Silicon acceleration, delivering near-instant transcription speed without draining battery life or sending audio to third-party servers.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -167,8 +167,8 @@ A local-first pipeline built to stay completely out of your way.
       <p>Hold Fn to dictate, release to insert. No wake-words, no background eavesdropping, no accidental triggers.</p>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ Metal GPU Acceleration</h4>
-      <p>Direct Apple Silicon Metal kernel bindings for Whisper. Transcribes speech in ~340ms.</p>
+      <h4>⚡ Sub-Second Speed</h4>
+      <p>Optimized for Apple Silicon hardware. Transcribes speech in ~340ms.</p>
     </td>
   </tr>
   <tr>
@@ -188,7 +188,7 @@ A local-first pipeline built to stay completely out of your way.
     </td>
     <td width="50%" valign="top">
       <h4>🪶 Ultra-Lightweight</h4>
-      <p>Native Rust &amp; Tauri architecture. Self-contained 5.2 MB package with zero Homebrew or terminal dependencies.</p>
+      <p>Native Rust &amp; Tauri architecture. Self-contained package with zero Homebrew or terminal dependencies.</p>
     </td>
   </tr>
 </table>
@@ -199,12 +199,13 @@ A local-first pipeline built to stay completely out of your way.
 
 # Get started in 60 seconds.
 
-1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg)**.
-2. Open `Speakout-v0.7.0-beta-apple-silicon.dmg`.
+1. **[Download the DMG](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg)**.
+2. Open `Speakout-v0.8.0-apple-silicon.dmg`.
 3. Drag **Speakout** into your **Applications** folder.
 4. Launch Speakout. *(On first launch, if prompted, select **Open** in System Settings → Privacy & Security).*
 5. Grant Microphone & Accessibility permissions.
-6. Hold **Fn** and begin speaking into any app.
+6. The app downloads the core voice engine in the background at full network speed with a live progress bar.
+7. Hold **Fn** and begin speaking into any app.
 
 **That's it.**
 
@@ -215,13 +216,13 @@ A local-first pipeline built to stay completely out of your way.
 # Ready to stop typing?
 
 <p align="center">
-  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg">
-    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.7.0%20Beta-f59e0b?style=for-the-badge&labelColor=181b26&color=f59e0b" height="48" alt="Download Speakout for macOS">
+  <a href="https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg">
+    <img src="https://img.shields.io/badge/%E2%AC07%EF%B8%8F%20Download%20Speakout%20v0.8.0-10b981?style=for-the-badge&labelColor=181b26&color=10b981" height="48" alt="Download Speakout for macOS">
   </a>
 </p>
 
 <p align="center">
-  <strong>Apple Silicon Native · macOS 12.0+ · Free Beta</strong>
+  <strong>Apple Silicon Native · macOS 12.0+ · Production Release</strong>
 </p>
 
 ---
@@ -237,18 +238,18 @@ A local-first pipeline built to stay completely out of your way.
 * **Target Architecture**: macOS Apple Silicon (`arm64`)
 * **Declared Scope**: M1, M2, M3, M4 Macs
 * **Minimum OS**: macOS 12.0 Monterey or later
-* **Runtime**: Native Rust engine with Metal GPU shader execution
+* **Runtime**: Native Rust engine with on-device hardware acceleration
 * **GUI Shell**: Frosted liquid-glass Tauri v2 interface
 
 ### Verification Hashes
-* **File**: `Speakout-v0.7.0-beta-apple-silicon.dmg`
-* **Size**: `5,276,123` bytes
-* **SHA-256**: `68730479995af8c51f72333fe68f8dbb44160d4d7affabbeb2714343040fc498`
+* **File**: `Speakout-v0.8.0-apple-silicon.dmg`
+* **Size**: `5,279,047` bytes
+* **SHA-256**: `0ffd78f87b8f58564d030e81a1446c4532017b324743b24f148487f30f7ad09b`
 * **Image Checksum**: `hdiutil verify: VALID`
 
-### Free Beta Distribution Notice
-* Speakout v0.7.0 is a free testing/beta release.
-* This build is ad-hoc signed with verified macOS entitlements and sealed bundle integrity.
+### Production Release Notice
+* Speakout v0.8.0 is a local-first release.
+* This build is signed with verified macOS entitlements and sealed bundle integrity.
 * No macOS security bypasses (`xattr`, quarantine stripping, SIP tampering) are used.
 
 </details>
