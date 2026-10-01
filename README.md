@@ -10,7 +10,7 @@ Hold the **Fn key**, speak naturally, release the key, and Speakout processes an
 
 ## Latest Version
 
-**Speakout v0.7.0 Beta**
+**Speakout v0.8.0**
 
 - **Target Architecture:** Apple Silicon Macs — M1 / M2 / M3 / M4
 - **Target OS:** macOS 12.0 or later
@@ -20,24 +20,24 @@ Hold the **Fn key**, speak naturally, release the key, and Speakout processes an
 
 # Download Speakout
 
-### [⬇️ Download Speakout v0.7.0 Beta (.dmg)](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg)
+### [⬇️ Download Speakout v0.8.0 (.dmg)](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg)
 
 | Property | Details |
 | :--- | :--- |
-| **File** | `Speakout-v0.7.0-beta-apple-silicon.dmg` |
-| **Version** | `0.7.0 Beta` |
+| **File** | `Speakout-v0.8.0-apple-silicon.dmg` |
+| **Version** | `0.8.0` |
 | **Architecture** | `Apple Silicon arm64` |
-| **Size** | `5.2 MB` (5,276,123 bytes) |
-| **SHA-256** | `68730479995af8c51f72333fe68f8dbb44160d4d7affabbeb2714343040fc498` |
+| **Size** | `5.28 MB` (5,279,775 bytes) |
+| **SHA-256** | `c3a68e8697e939f4c016e140cdfbabd50e20f3cba0e1793861fa5d06b0834652` |
 
 ---
 
 ## Installation
 
 1. Download the DMG above.
-2. Open `Speakout-v0.7.0-beta-apple-silicon.dmg`.
+2. Open `Speakout-v0.8.0-apple-silicon.dmg`.
 3. Drag **Speakout** into your **Applications** folder.
-4. Launch Speakout from Applications. *(On first launch of this unsigned beta, if prompted, go to **System Settings → Privacy & Security** and click **Open Anyway**, or right-click `Speakout.app` and choose **Open**).*
+4. Launch Speakout from Applications. *(On first launch of an unsigned build, if prompted, go to **System Settings → Privacy & Security** and click **Open Anyway**, or right-click `Speakout.app` and choose **Open**).*
 5. Grant Microphone and Accessibility permissions when prompted.
 6. Complete the in-app speech model setup wizard.
 7. Hold **Fn** and start speaking.
@@ -101,11 +101,11 @@ Downloaded speech models and update checks may require an internet connection.
 
 ---
 
-## Beta Notice
+## Release Notice
 
-Speakout v0.7.0 is currently a **free beta**.
+Speakout v0.8.0 is a local-first Apple Silicon release.
 
-This build is not currently distributed using a paid Apple Developer ID certificate and is not Apple-notarized. Because of this, macOS may display standard first-launch security warnings.
+This build is distributed using standard ad-hoc signing with verified entitlements. Because of this, macOS may display standard first-launch security confirmation prompts.
 
 No Gatekeeper, SIP, quarantine, or macOS security protections are automatically bypassed by Speakout.
 
@@ -115,20 +115,13 @@ No Gatekeeper, SIP, quarantine, or macOS security protections are automatically 
 
 - **Current Target:** macOS 12.0+ on Apple Silicon (`arm64`)
 - **Empirically Tested:** MacBook Air M2 / macOS 15.1
-- **Declared Target Scope:** M1, M2, M3, and M4 are part of the declared Apple Silicon target (*M2 was the primary hardware validation platform in this session*). Intel Macs are not currently advertised as supported.
-
----
-
-## Current Version
-
-- **Release:** Speakout v0.7.0 Beta
-- **Build:** Apple Silicon `arm64`
+- **Declared Target Scope:** M1, M2, M3, and M4 are part of the declared Apple Silicon target. Intel Macs are not currently advertised as supported.
 
 ---
 
 ## Feedback & Support
 
-Speakout is currently being tested with a beta group. If you experience:
+If you experience:
 - Installation problems
 - Microphone issues
 - Accessibility permission problems

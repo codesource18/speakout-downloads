@@ -1,9 +1,9 @@
 {
-  "version": "0.7.0",
-  "pub_date": "2026-10-01T13:00:00Z",
-  "notes": "Speakout v0.7.0 Beta — Apple Silicon. Metal GPU acceleration, on-device Whisper transcription, fast-path formatting, and stability improvements.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.7.0-beta-apple-silicon.dmg",
-  "asset_name": "Speakout-v0.7.0-beta-apple-silicon.dmg",
-  "asset_size": 5276123,
+  "version": "0.8.0",
+  "pub_date": "2026-10-01T14:10:00Z",
+  "notes": "Speakout v0.8.0 — Apple Silicon. Metal GPU acceleration, on-device Whisper transcription, fast-path formatting, sealed bundle signature, and stability improvements.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v0.8.0-apple-silicon.dmg",
+  "asset_name": "Speakout-v0.8.0-apple-silicon.dmg",
+  "asset_size": 5279775,
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
