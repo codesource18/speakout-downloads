@@ -27,8 +27,8 @@ Hold the **Fn key**, speak naturally, release the key, and Speakout processes an
 | **File** | `Speakout-v0.7.0-beta-apple-silicon.dmg` |
 | **Version** | `0.7.0 Beta` |
 | **Architecture** | `Apple Silicon arm64` |
-| **Size** | `4.6 MB` (4,855,267 bytes) |
-| **SHA-256** | `6975e2509b896157392d51d18be2d7723a90bc7757a7063e666515fd7657ca48` |
+| **Size** | `5.2 MB` (5,276,123 bytes) |
+| **SHA-256** | `68730479995af8c51f72333fe68f8dbb44160d4d7affabbeb2714343040fc498` |
 
 ---
 
@@ -37,7 +37,7 @@ Hold the **Fn key**, speak naturally, release the key, and Speakout processes an
 1. Download the DMG above.
 2. Open `Speakout-v0.7.0-beta-apple-silicon.dmg`.
 3. Drag **Speakout** into your **Applications** folder.
-4. Launch Speakout from Applications or Spotlight.
+4. Launch Speakout from Applications. *(On first launch of this unsigned beta, if prompted, go to **System Settings → Privacy & Security** and click **Open Anyway**, or right-click `Speakout.app` and choose **Open**).*
 5. Grant Microphone and Accessibility permissions when prompted.
 6. Complete the in-app speech model setup wizard.
 7. Hold **Fn** and start speaking.
