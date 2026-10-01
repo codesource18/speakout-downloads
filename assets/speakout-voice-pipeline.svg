@@ -1,0 +1,91 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c12"/>
+      <stop offset="50%" stop-color="#121520"/>
+      <stop offset="100%" stop-color="#0a0c12"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e2230" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#131622" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="280" rx="20" fill="url(#bgGrad)" stroke="#232738" stroke-width="1.5"/>
+
+  <!-- Flowing Connection Line -->
+  <path d="M 170 140 H 1030" stroke="url(#lineGrad)" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- Step 1: Push To Talk -->
+  <g transform="translate(70, 70)">
+    <rect width="160" height="140" rx="16" fill="url(#cardGrad)" stroke="#32384f" stroke-width="1.2"/>
+    <rect x="52" y="24" width="56" height="40" rx="8" fill="#181b26" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="80" y="49" fill="#fde047" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Fn</text>
+    <text x="80" y="88" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="650" text-anchor="middle">Hold Fn</text>
+    <text x="80" y="106" fill="#9ca3af" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">Push-to-Talk</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 245 140 L 275 140 M 268 134 L 275 140 L 268 146" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 2: Voice Audio Capture -->
+  <g transform="translate(290, 70)">
+    <rect width="160" height="140" rx="16" fill="url(#cardGrad)" stroke="#32384f" stroke-width="1.2"/>
+    <circle cx="80" cy="44" r="22" fill="#181b26" stroke="#f59e0b" stroke-width="1.5"/>
+    <path d="M 80 34 v 12 M 75 42 a 5 5 0 0 0 10 0 v -4 M 80 50 v 4 M 76 54 h 8" stroke="#fde047" stroke-width="2" stroke-linecap="round"/>
+    <text x="80" y="88" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="650" text-anchor="middle">Voice Capture</text>
+    <text x="80" y="106" fill="#9ca3af" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">16kHz Uncompressed</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 465 140 L 495 140 M 488 134 L 495 140 L 488 146" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 3: Local Whisper Metal GPU -->
+  <g transform="translate(510, 60)">
+    <rect width="180" height="160" rx="18" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="2" filter="url(#glow)" stroke-opacity="0.6"/>
+    <rect width="180" height="160" rx="18" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1.5"/>
+    <circle cx="90" cy="48" r="24" fill="#181b26" stroke="#fde047" stroke-width="1.5"/>
+    <path d="M 82 48 L 88 42 L 94 54 L 98 48" stroke="#fde047" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="94" fill="#fde047" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Whisper Metal</text>
+    <text x="90" y="112" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500" text-anchor="middle">On-Device GPU</text>
+    <text x="90" y="128" fill="#10b981" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">~341ms Latency</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <path d="M 705 140 L 735 140 M 728 134 L 735 140 L 728 146" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 4: Prompt Intelligence -->
+  <g transform="translate(750, 70)">
+    <rect width="160" height="140" rx="16" fill="url(#cardGrad)" stroke="#32384f" stroke-width="1.2"/>
+    <circle cx="80" cy="44" r="22" fill="#181b26" stroke="#10b981" stroke-width="1.5"/>
+    <path d="M 80 34 L 83 41 L 90 44 L 83 47 L 80 54 L 77 47 L 70 44 L 77 41 Z" fill="#10b981"/>
+    <text x="80" y="88" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="650" text-anchor="middle">Intelligence</text>
+    <text x="80" y="106" fill="#9ca3af" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">Punctuation &amp; Lists</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <path d="M 925 140 L 955 140 M 948 134 L 955 140 L 948 146" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 5: Direct Insertion -->
+  <g transform="translate(970, 70)">
+    <rect width="160" height="140" rx="16" fill="url(#cardGrad)" stroke="#32384f" stroke-width="1.2"/>
+    <circle cx="80" cy="44" r="22" fill="#181b26" stroke="#10b981" stroke-width="1.5"/>
+    <path d="M 73 44 L 78 49 L 87 39" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="80" y="88" fill="#ffffff" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="650" text-anchor="middle">Any macOS App</text>
+    <text x="80" y="106" fill="#9ca3af" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">Direct Cursor Injection</text>
+  </g>
+</svg>
