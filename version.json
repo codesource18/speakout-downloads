@@ -1,9 +1,10 @@
 {
   "version": "8.5.1",
-  "pub_date": "2026-10-01T16:35:00Z",
-  "notes": "Speakout v8.5.1 Stable — Apple Silicon. Hardened Runtime pipeline, inside-out signing architecture, verified microphone and JIT entitlements, Gatekeeper first-launch helper, and Wispr Flow prompt intelligence benchmarks.",
+  "pub_date": "2026-10-01T17:02:30Z",
+  "notes": "Speakout v8.5.1 Stable — Apple Silicon. Ad-hoc inside-out signed with audio entitlements, Tauri updater artifacts, clean 3-click DMG guide, and Wispr Flow prompt intelligence.",
   "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.5.1-apple-silicon.dmg",
   "asset_name": "Speakout-v8.5.1-apple-silicon.dmg",
-  "asset_size": 5268457,
+  "asset_size": 5328796,
+  "sha256": "6b94900b1358903e8390c381844fe7baef989171d8efa9fa53fd4bc897db1df9",
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
