@@ -11,7 +11,7 @@ Speakout V10 is a blazingly fast, privacy-first, Metal-accelerated local voice i
 ## Direct Download
 
 - **[Speakout-v10.0.0-apple-silicon.dmg](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v10.0.0-apple-silicon.dmg)** (5.21 MB)
-- **SHA-256**: `b89cea141d7fe13ea85b872144eadcb18ba89566905b0e85156755fbbf9d6d14`
+- **SHA-256**: `945973231ce61a598e634eba2823ed4cafb435b8549b27077b0e278afcfd683e`
 - **Architecture**: Apple Silicon (M1 / M2 / M3 / M4)
 - **macOS Version**: macOS 12 Monterey or higher (Optimized for macOS 15 Sequoia)
 
