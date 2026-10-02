@@ -2,7 +2,7 @@
 
 Speakout V10 is a blazingly fast, privacy-first, Metal-accelerated local voice intelligence system and autonomous AI assistant (Scout) for macOS.
 
-[![Latest Release](https://img.shields.io/badge/Release-v10.10.0_Stable-blue.svg)](https://github.com/codesource18/speakout-downloads/releases/tag/v10.10.0)
+[![Latest Release](https://img.shields.io/badge/Release-v8.3.0_Stable-blue.svg)](https://github.com/codesource18/speakout-downloads/releases/tag/v8.3.0)
 [![Architecture](https://img.shields.io/badge/Architecture-Apple_Silicon_(arm64)-orange.svg)](https://github.com/codesource18/speakout-downloads)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -10,8 +10,8 @@ Speakout V10 is a blazingly fast, privacy-first, Metal-accelerated local voice i
 
 ## Direct Download
 
-- **[Speakout-v10.10.0-apple-silicon.dmg](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v10.10.0-apple-silicon.dmg)** (5.24 MB)
-- **SHA-256**: `33f0ea97b954c3ed87ce369a80df303776ab548ee6814693ebf71343f0df0083`
+- **[Speakout-v8.3.0-apple-silicon.dmg](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.0-apple-silicon.dmg)** (5.08 MB)
+- **SHA-256**: `210c443f5cd11eb6ebabe935b763a8ab8455cc9d57dbeac41fab682b4321909c`
 - **Architecture**: Apple Silicon (M1 / M2 / M3 / M4)
 - **macOS Version**: macOS 12 Monterey or higher (Optimized for macOS 15 Sequoia)
 
@@ -47,7 +47,7 @@ Because Speakout is an independent open-source application and not distributed v
 
 ```bash
 # Verify download SHA-256
-shasum -a 256 Speakout-v10.10.0-apple-silicon.dmg
+shasum -a 256 Speakout-v8.3.0-apple-silicon.dmg
 
 # Verify inside-out ad-hoc signature & entitlements
 codesign --verify --deep --strict --verbose=2 /Applications/Speakout.app
