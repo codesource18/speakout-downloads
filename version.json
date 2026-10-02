@@ -1,10 +1,10 @@
 {
-  "version": "10.0.0",
-  "pub_date": "2026-10-02T01:11:43Z",
-  "notes": "Speakout v10.0.0 Stable — Scout Autonomous Local Voice & AI Agent (Apple Silicon). Voice Engine v2, real-time wake word (Hey Scout), screen & file context, local LoRA adapter intelligence, and deterministic cleanup engine.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v10.0.0-apple-silicon.dmg",
-  "asset_name": "Speakout-v10.0.0-apple-silicon.dmg",
-  "asset_size": 5471539,
-  "sha256": "945973231ce61a598e634eba2823ed4cafb435b8549b27077b0e278afcfd683e",
+  "version": "10.1.0",
+  "pub_date": "2026-10-02T01:42:47Z",
+  "notes": "Speakout v10.1.0 Stable — Scout Autonomous Local Voice & AI Agent (Apple Silicon). Voice Engine v2, real-time wake word (Hey Scout), screen & file context, local LoRA adapter intelligence, and deterministic cleanup engine.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v10.1.0-apple-silicon.dmg",
+  "asset_name": "Speakout-v10.1.0-apple-silicon.dmg",
+  "asset_size": 5471706,
+  "sha256": "ad5b3c2df1214c67672439e266dae9e795df2113204b701858b92ce8098cf634",
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
