@@ -1,10 +1,10 @@
 {
   "version": "10.1.0",
   "notes": "Speakout v10.1.0 Stable for Apple Silicon — Scout Autonomous Local Voice & AI Agent. Voice Engine v2, real-time wake word (Hey Scout), screen & file context, local LoRA adapter intelligence, and deterministic cleanup engine.",
-  "pub_date": "2026-10-02T01:42:47Z",
+  "pub_date": "2026-10-02T02:25:17Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN3JuMGdPQkxNc0ExZFRMMkNrcTYvcCtCQldiOWtPUXdwUEJObWJSYlQwSGVxUFlmbHBEelM0dDBXelNqdXRUWVQyUnFRZmJiak5DL3lFSm4wT2xVV3BWR2tqcm52bFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTA1MzY3CWZpbGU6U3BlYWtvdXQuYXBwLnRhci5nego4aFY3R2lFS2M4c3V3cm8yMjQ3YlhiWWJlTWhtRnpEaG14R0VSb0k2eXl0ekVjT0VodmlYK0Vmd3pUb3I5alU3WVFkdXhmNERWODNFWGFUQXBmUzZDdz09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN3JuMGdPQkxNc0k5d0JVWmdNNGlHTzdtYkpvQ2ZHYzZGbEN6L1lCcC9Hb01VRmtpaUN4dWlKdjgvbEJnaDFockxqcE5jTm04R0U2WXpnT0NJRm4zS05kSVJRK3cwR3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTA3OTE3CWZpbGU6U3BlYWtvdXQuYXBwLnRhci5negpVM21pbGNoQzZiakR1NXVYZEZIU3AzVmJic3JwT1RQYTJ3clpraC9WOUNWSlhRdk81Q3MvNGNIYVlySTdrYjVXM3NKMVBjUzRNRWxPY3BXSVFGNUVEUT09Cg==",
       "url": "https://github.com/codesource18/speakout-downloads/releases/download/v10.1.0/Speakout.app.tar.gz"
     }
   }
