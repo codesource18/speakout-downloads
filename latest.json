@@ -1,6 +1,6 @@
 {
   "version": "8.3.1",
-  "notes": "Speakout v8.3.1 Stable for Apple Silicon — Scout Autonomous Local Voice & AI Agent. Voice Engine v2, real-time wake word (Hey Scout), screen & file context, local LoRA adapter intelligence, and deterministic cleanup engine.",
+  "notes": "Speakout v8.3.1 Stable — Apple Silicon Voice Dictation & Prompt Intelligence. Liquid Glass Voice HUD, Background Resident Tray Mode, and Apple Metal GPU Compute.",
   "pub_date": "2026-10-03T17:43:30Z",
   "platforms": {
     "darwin-aarch64": {
