@@ -10,7 +10,8 @@ Speakout v8.3.2 is an ultra-fast, local-first, Metal GPU-accelerated voice dicta
 
 ## 📦 Direct Download
 
-- **[Speakout-v8.3.2-apple-silicon.dmg](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.2-apple-silicon.dmg)** (5.05 MB)
+- **[Speakout-v8.3.2-apple-silicon.dmg](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.2-apple-silicon.dmg)** (5.03 MB)
+- **SHA-256**: `08d47bc2dbd18d983e34ce22821d4199c71e341ae893e7ec16318782d1d450f3`
 - **Architecture**: Apple Silicon (M1 / M2 / M3 / M4)
 - **macOS Compatibility**: macOS 12 Monterey or higher (Optimized for macOS 15 Sequoia)
 - **RAM Footprint**: < 120 MB (0 external server dependencies, 0 RAM bloat)
@@ -42,3 +43,16 @@ Speakout v8.3.2 is an ultra-fast, local-first, Metal GPU-accelerated voice dicta
    xattr -cr /Applications/Speakout.app && open /Applications/Speakout.app
    ```
    *Or go to **System Settings > Privacy & Security > Security** and click **Open Anyway**.*
+
+---
+
+## 🔒 Verification & Integrity
+
+```bash
+# Verify download SHA-256
+shasum -a 256 Speakout-v8.3.2-apple-silicon.dmg
+
+# Verify inside-out ad-hoc signature & entitlements
+codesign --verify --deep --strict --verbose=2 /Applications/Speakout.app
+codesign -d --entitlements :- /Applications/Speakout.app
+```

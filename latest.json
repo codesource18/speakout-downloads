@@ -1,10 +1,10 @@
 {
   "version": "8.3.2",
-  "notes": "Speakout v8.3.2 Stable — Apple Silicon Voice Dictation & The Professional Prompt Intelligence Framework. Liquid Glass Voice HUD, Background Resident Tray Mode, and Apple Metal GPU Compute.",
-  "pub_date": "2026-10-05T08:30:00Z",
+  "notes": "Speakout v8.3.2 Stable for Apple Silicon — Ultra-fast local voice dictation & Prompt Intelligence. Features The Professional Prompt Framework (Role, Context, Task, Requirements, Constraints, Format), sub-2s Whisper Metal GPU acceleration, resident menu bar mode, and liquid glass HUD.",
+  "pub_date": "2026-10-05T03:29:45Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN3JuMGdPQkxNc0ltTnIvRjk5R04xcCtnaWQ0dktmVnVJT1VrOHRyVkduZUNpZ2ZVcGhKY1lUcG56cHA3dlRCWEoySU5GVmo0Q1BTcFdVU0Vvb1pPVko4Y0kzSVdRa3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDQ5NDEwCWZpbGU6U3BlYWtvdXQuYXBwLnRhci5negpNdEZxanFRME5hTVZWZjBid2VJcHlkazhxaG5hQkR5NlpTRWZTWUExbnhTVUZUMVV2c0ZPcC9FZnU0SjUyQjNhZTIvYkNvMjJIQlk3VVlzU0NraVpDUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN3JuMGdPQkxNc0ZSR0d0bmxUWkFrUEY2VWFLMDV0OG1MUnU1ei9kZVoybHFOdVlyR0dFUCtvWVU5akNZRkxqaEJhK0NRdFRkVERaYVhiU1p0RVU5ME04OFRuR1RsVVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTcwOTg1CWZpbGU6U3BlYWtvdXQuYXBwLnRhci5negpRSHJmOTRTOHlPUlhFOXYrWk9QSTl6ZFRZamdTbmgvUllHZzlvaWVsMnpJeGIydzkzdTIzVVgxQ3paVTJTdHAwSDNPL3YwV2tVYnVRR3ljQWNEVEFEZz09Cg==",
       "url": "https://github.com/codesource18/speakout-downloads/releases/download/v8.3.2/Speakout.app.tar.gz"
     }
   }
