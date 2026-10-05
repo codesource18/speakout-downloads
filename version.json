@@ -1,10 +1,10 @@
 {
-  "version": "8.3.1",
-  "pub_date": "2026-10-03T17:43:30Z",
-  "notes": "Speakout v8.3.1 Stable — Apple Silicon Voice Dictation & Prompt Intelligence. Liquid Glass Voice HUD, Background Resident Tray Mode, and Apple Metal GPU Compute.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.1-apple-silicon.dmg",
-  "asset_name": "Speakout-v8.3.1-apple-silicon.dmg",
-  "asset_size": 5291814,
-  "sha256": "afd6bc5cc12d489931e27681d97497c09240a743fca72d82121eb04f6cf163aa",
+  "version": "8.3.2",
+  "pub_date": "2026-10-05T08:30:00Z",
+  "notes": "Speakout v8.3.2 Stable — Professional Prompt Intelligence Framework, Sub-2s Jet Speed Whisper Metal ASR, and Liquid Glass Voice HUD.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.2-apple-silicon.dmg",
+  "asset_name": "Speakout-v8.3.2-apple-silicon.dmg",
+  "asset_size": 5299340,
+  "sha256": "08639f592798537f477dd69145b6577247609417d24b9b00931a7de70a43fafc",
   "release_url": "https://github.com/codesource18/speakout-downloads"
 }
