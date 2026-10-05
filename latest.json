@@ -1,11 +1,19 @@
 {
   "version": "8.3.2",
-  "notes": "Speakout v8.3.2 Stable for Apple Silicon — Ultra-fast local voice dictation & Prompt Intelligence. Features The Professional Prompt Framework (Role, Context, Task, Requirements, Constraints, Format), sub-2s Whisper Metal GPU acceleration, resident menu bar mode, and liquid glass HUD.",
+  "notes": "Speakout v8.3.2 Stable for macOS, Windows & Linux — Ultra-fast local voice dictation & Prompt Intelligence. Features The Professional Prompt Framework (Role, Context, Task, Requirements, Constraints, Format), sub-2s Whisper inference, resident tray mode, and cross-platform native keystroke injection.",
   "pub_date": "2026-10-05T03:29:45Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN3JuMGdPQkxNc0ZSR0d0bmxUWkFrUEY2VWFLMDV0OG1MUnU1ei9kZVoybHFOdVlyR0dFUCtvWVU5akNZRkxqaEJhK0NRdFRkVERaYVhiU1p0RVU5ME04OFRuR1RsVVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTcwOTg1CWZpbGU6U3BlYWtvdXQuYXBwLnRhci5negpRSHJmOTRTOHlPUlhFOXYrWk9QSTl6ZFRZamdTbmgvUllHZzlvaWVsMnpJeGIydzkzdTIzVVgxQ3paVTJTdHAwSDNPL3YwV2tVYnVRR3ljQWNEVEFEZz09Cg==",
       "url": "https://github.com/codesource18/speakout-downloads/releases/download/v8.3.2/Speakout.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://github.com/codesource18/speakout-downloads/releases/download/v8.3.2/Speakout_8.3.2_x64_en-US.msi.zip"
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": "https://github.com/codesource18/speakout-downloads/releases/download/v8.3.2/Speakout_8.3.2_amd64.AppImage.tar.gz"
     }
   }
 }
