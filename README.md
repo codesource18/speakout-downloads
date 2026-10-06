@@ -1,58 +1,288 @@
-# Speakout v8.3.3 — Local Voice Dictation & Prompt Intelligence for Apple Silicon
+<div align="center">
 
-Speakout v8.3.3 is an ultra-fast, local-first, Metal GPU-accelerated voice dictation and prompt intelligence platform for macOS.
+<img src="./assets/speakout-v8.3.3-cinematic.gif" width="100%" alt="Speakout v8.3.3 cinematic demo">
 
-[![Latest Release](https://img.shields.io/badge/Release-v8.3.3_Stable-blue.svg)](https://github.com/codesource18/speakout-downloads/releases/tag/v8.3.3)
-[![Architecture](https://img.shields.io/badge/Architecture-Apple_Silicon_(arm64)-orange.svg)](https://github.com/codesource18/speakout-downloads)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+# SPEAKOUT
 
----
+### Speak. Think. Type.
 
-## 📦 Direct Download
+**Private, system-wide voice intelligence for macOS, Windows and Linux.**
 
-- **[Speakout-v8.3.3-apple-silicon.dmg](https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.3-apple-silicon.dmg)** (5.00 MB)
-- **SHA-256**: `8bf65c18d73719457ea83592ca11b2e11333d524354edaa1c730ba247fed77a9`
-- **Architecture**: Apple Silicon (M1 / M2 / M3 / M4)
-- **macOS Compatibility**: macOS 12 Monterey or higher (Optimized for macOS 15 Sequoia)
-- **RAM Footprint**: < 120 MB (0 external server dependencies, 0 RAM bloat)
+Hold one key. Speak naturally. Release.  
+Speakout turns your voice into clean text or structured prompts while keeping the core voice workflow local.
 
----
+[![Version](https://img.shields.io/badge/version-8.3.3%20Stable-111111?style=for-the-badge)](#)
+[![Tests](https://img.shields.io/badge/tests-171%20%2F%20171-111111?style=for-the-badge)](#)
+[![Telemetry](https://img.shields.io/badge/telemetry-none-111111?style=for-the-badge)](#)
+[![Platforms](https://img.shields.io/badge/macOS%20·%20Windows%20·%20Linux-supported-111111?style=for-the-badge)](#)
 
-## ⚡ What's New in v8.3.3
+[**Launch Interactive Demo**](https://codesource18.github.io/speakout-downloads/) ·
+[**Download**](#download) ·
+[**How it works**](#how-it-works) ·
+[**Setup**](#platform-setup)
 
-- **The Professional Prompt Framework**:
-  - **Role (Persona)**: Inferred expert persona across Game Dev, Full-Stack, Systems, AI, Finance, Copywriting, Design.
-  - **Context**: Context and background extraction from conversational speech.
-  - **Task (Instruction)**: Direct action verbs (`Build`, `Create`, `Write`, `Refactor`, `Analyze`, `Design`, `Summarize`).
-  - **Requirements & Key Features**: Clean numbered stepwise specifications.
-  - **Constraints (Rules)**: Boundaries, performance gates, and rules.
-  - **Format**: Output specification for production-ready code.
-- **Short Text Passthrough**: Dictating 2 lines or less goes straight as clean plain text without prompt overhead.
-- **Jet Speed Sub-2s Latency**: Apple Silicon Metal GPU compute with English domain pinning and audio silence trimming for sub-second recognition.
-- **Liquid Glass Voice HUD**: Golden mic soundwave equalization, orbit loader processing, and gold checkmark paste.
-- **Background Resident Mode**: Always active in macOS menu bar tray. Pressing Fn anywhere immediately triggers dictation.
-- **100% Local-First & Zero Telemetry**: Air-gapped, zero cloud egress, 100% private.
+</div>
 
 ---
 
-## 🚀 First-Run Installation (macOS Gatekeeper)
+## A README that behaves like the product
 
-1. Drag `Speakout.app` to your `/Applications` folder.
-2. Run the quick one-time terminal unlock:
-   ```bash
-   xattr -cr /Applications/Speakout.app && open /Applications/Speakout.app
-   ```
-   *Or go to **System Settings > Privacy & Security > Security** and click **Open Anyway**.*
+The animated hero above works directly in GitHub.
+
+The companion GitHub Pages experience is actually interactive:
+
+**https://codesource18.github.io/speakout-downloads/**
+
+Inside it, users can switch platform, click into a real typing field, hold the Speakout key, watch **Listening → Processing → Done**, see text inserted, browse the redesigned **History** cards, explore **Prompt Intelligence**, simulate updates, and open the new **Contact** portal.
+
+> GitHub README pages block arbitrary JavaScript, so the truly interactive controls live in GitHub Pages while the README remains fast and native to GitHub.
 
 ---
 
-## 🔒 Verification & Integrity
+<a id="how-it-works"></a>
 
-```bash
-# Verify download SHA-256
-shasum -a 256 Speakout-v8.3.3-apple-silicon.dmg
+## How it works
 
-# Verify inside-out ad-hoc signature & entitlements
-codesign --verify --deep --strict --verbose=2 /Applications/Speakout.app
-codesign -d --entitlements :- /Applications/Speakout.app
+```text
+HOTKEY
+  ↓
+MICROPHONE CAPTURE
+  ↓
+LOCAL SPEECH ENGINE
+  ↓
+INTENT DETECTION
+  ↓
+PLAIN TEXT OR PROFESSIONAL PROMPT FRAMEWORK
+  ↓
+FINAL CLEANUP
+  ↓
+TEXT INSERTION
+  ↓
+DONE
 ```
+
+The current audited release is **Speakout 8.3.3 Stable** with **171 passed / 0 failed / 0 skipped** automated tests.
+
+The active Apple Silicon speech path uses local `whisper.cpp` FP16 Metal bindings. The audit reports a **sub-2-second latency envelope** and **<110 MB runtime footprint** on the audited Apple Silicon configurations.
+
+---
+
+## Prompt Intelligence
+
+Speakout does not force every sentence into a giant prompt.
+
+Short input can stay plain. Complex instructions can be organized using:
+
+```text
+ROLE
+  ↓
+CONTEXT
+  ↓
+TASK
+  ↓
+REQUIREMENTS
+  ↓
+CONSTRAINTS
+  ↓
+FORMAT
+```
+
+The current audit also identifies **≤2-line plain-text passthrough**, so short dictation is not unnecessarily over-processed.
+
+---
+
+## New in 8.3.3
+
+### Monochrome B&W interface
+A quieter black-and-white product language with less visual noise.
+
+### Numbered History cards
+Recent work is easier to scan:
+
+```text
+01  Launch page prompt          Prompt
+02  Follow-up message           Message
+03  Product specification       Structured Task
+```
+
+### Update persistence
+Update state now survives relaunches correctly.
+
+### Prompt-engine refinements
+Professional Prompt Framework + short-form passthrough behavior.
+
+### Contact portal
+Support/contact is now part of the product flow.
+
+---
+
+<a id="platform-setup"></a>
+
+# Platform setup
+
+<details open>
+<summary><strong>macOS — Apple Silicon & Intel</strong></summary>
+
+<br>
+
+[**Download latest macOS release →**](https://github.com/codesource18/speakout-downloads/releases/latest)
+
+Install Speakout, complete the first-run setup, then grant the permissions requested by the current build.
+
+Typical macOS operation involves:
+- Microphone
+- Accessibility
+- Input Monitoring
+
+Use **Open Privacy Settings** inside Speakout whenever the setup guide asks for a permission.
+
+Then:
+
+```text
+Hold FN → Speak → Release FN
+                ↓
+     Listening → Processing → Done
+```
+
+</details>
+
+<details>
+<summary><strong>Windows 10 / 11 — 64-bit</strong></summary>
+
+<br>
+
+[**Download latest Windows release →**](https://github.com/codesource18/speakout-downloads/releases/latest)
+
+Complete the microphone/system-input setup shown by Speakout.
+
+```text
+Hold Control → Speak → Release
+                    ↓
+             Processing → Done
+```
+
+</details>
+
+<details>
+<summary><strong>Linux</strong></summary>
+
+<br>
+
+[**Download latest Linux release →**](https://github.com/codesource18/speakout-downloads/releases/latest)
+
+Install the current supported package and follow the platform setup in Speakout.
+
+Linux global-hotkey and text-injection behavior can vary between desktop environments, especially X11 and Wayland.
+
+</details>
+
+---
+
+## HUD states
+
+**LISTENING** — voice capture is active.  
+**PROCESSING** — Speakout is finalizing the text.  
+**DONE** — text has been inserted.  
+**ERROR** — a real failure is surfaced instead of silently pretending success.
+
+---
+
+## Local-first privacy
+
+The audited architecture reports:
+- local speech processing
+- local prompt processing
+- local application data
+- zero telemetry
+- no exposed tokens
+
+Speakout also includes an update system, so update checks/downloads can use the network. This README therefore says **local-first voice processing** rather than implying the app never makes any network request.
+
+---
+
+## Updates
+
+Speakout 8.3.3 uses a dual-layer update architecture:
+
+```text
+version metadata + atomic package replacement
+                    +
+     tauri updater + signed verification
+```
+
+The current audit also confirms update-persistence fixes.
+
+---
+
+## Performance
+
+| Metric | Audited result |
+|---|---:|
+| Tests | **171 passed** |
+| Failed | **0** |
+| Skipped | **0** |
+| Post-speech latency | **Sub-2s audited envelope** |
+| Runtime footprint | **<110 MB** |
+| Apple acceleration | **Metal** |
+| Speech engine | **whisper.cpp FP16 Metal bindings** |
+
+Actual performance varies by machine, recording length, mode and platform.
+
+---
+
+<a id="download"></a>
+
+# Download
+
+<div align="center">
+
+| macOS | Windows | Linux |
+|:---:|:---:|:---:|
+| Apple Silicon + Intel | Windows 10/11 x64 | Current supported packages |
+| [**Download →**](https://github.com/codesource18/speakout-downloads/releases/latest) | [**Download →**](https://github.com/codesource18/speakout-downloads/releases/latest) | [**Download →**](https://github.com/codesource18/speakout-downloads/releases/latest) |
+
+</div>
+
+---
+
+## Interactive demo deployment
+
+This package contains:
+
+```text
+README.md
+assets/
+└── speakout-v8.3.3-cinematic.gif
+
+docs/
+└── index.html
+```
+
+Enable:
+
+```text
+GitHub → Settings → Pages → Deploy from branch → main → /docs
+```
+
+Expected URL:
+
+```text
+https://codesource18.github.io/speakout-downloads/
+```
+
+> Browser note: the physical macOS FN/Globe key is not reliably exposed to normal JavaScript. The web demo therefore provides a real press-and-hold FN control on screen and an `F` keyboard simulation. Windows/Linux demo mode supports `Control`.
+
+---
+
+<div align="center">
+
+# Speak. Think. Type.
+
+**Speakout disappears into your workflow so your ideas don't have to.**
+
+[**Launch Interactive Demo**](https://codesource18.github.io/speakout-downloads/) ·
+[**Download Speakout**](https://github.com/codesource18/speakout-downloads/releases/latest)
+
+`8.3.3 Stable` · `171 / 171 tests` · `Local-first` · `macOS · Windows · Linux`
+
+</div>
