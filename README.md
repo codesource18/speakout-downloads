@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/speakout-v8.3.3-cinematic.gif" width="100%" alt="Speakout v8.3.3 cinematic demo">
+<img src="./assets/speakout-v8.3.4-cinematic.gif" width="100%" alt="Speakout v8.3.4 cinematic demo">
 
 # SPEAKOUT
 
@@ -11,7 +11,7 @@
 Hold one key. Speak naturally. Release.  
 Speakout turns your voice into clean text or structured prompts while keeping the core voice workflow local.
 
-[![Version](https://img.shields.io/badge/version-8.3.3%20Stable-111111?style=for-the-badge)](#)
+[![Version](https://img.shields.io/badge/version-8.3.4%20Stable-111111?style=for-the-badge)](#)
 [![Tests](https://img.shields.io/badge/tests-171%20%2F%20171-111111?style=for-the-badge)](#)
 [![Telemetry](https://img.shields.io/badge/telemetry-none-111111?style=for-the-badge)](#)
 [![Platforms](https://img.shields.io/badge/macOS%20·%20Windows%20·%20Linux-supported-111111?style=for-the-badge)](#)
@@ -61,7 +61,7 @@ TEXT INSERTION
 DONE
 ```
 
-The current audited release is **Speakout 8.3.3 Stable** with **171 passed / 0 failed / 0 skipped** automated tests.
+The current audited release is **Speakout 8.3.4 Stable** with **171 passed / 0 failed / 0 skipped** automated tests.
 
 The active Apple Silicon speech path uses local `whisper.cpp` FP16 Metal bindings. The audit reports a **sub-2-second latency envelope** and **<110 MB runtime footprint** on the audited Apple Silicon configurations.
 
@@ -91,7 +91,7 @@ The current audit also identifies **≤2-line plain-text passthrough**, so short
 
 ---
 
-## New in 8.3.3
+## New in 8.3.4
 
 ### Monochrome B&W interface
 A quieter black-and-white product language with less visual noise.
@@ -125,7 +125,7 @@ Support/contact is now part of the product flow.
 
 <br>
 
-[**Download Speakout for macOS (.dmg) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-apple-silicon.dmg)
+[**Download Speakout for macOS (.dmg) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-apple-silicon.dmg)
 
 Install Speakout, complete the first-run setup, then grant the permissions requested by the current build.
 
@@ -151,8 +151,8 @@ Hold FN → Speak → Release FN
 
 <br>
 
-- [**Download Windows Installer (.msi) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.msi)
-- [**Download Windows Portable (.zip) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.zip)
+- [**Download Windows Installer (.msi) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.msi)
+- [**Download Windows Portable (.zip) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.zip)
 
 Complete the microphone/system-input setup shown by Speakout.
 
@@ -169,8 +169,8 @@ Hold Control → Speak → Release
 
 <br>
 
-- [**Download Linux Universal (.AppImage) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-x86_64.AppImage)
-- [**Download Linux Debian / Ubuntu (.deb) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-amd64.deb)
+- [**Download Linux Universal (.AppImage) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-linux-x86_64.AppImage)
+- [**Download Linux Debian / Ubuntu (.deb) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-linux-amd64.deb)
 
 Install the package and follow the platform setup in Speakout.
 
@@ -204,7 +204,7 @@ Speakout also includes an update system, so update checks/downloads can use the 
 
 ## Updates
 
-Speakout 8.3.3 uses a dual-layer update architecture:
+Speakout 8.3.4 uses a dual-layer update architecture:
 
 ```text
 version metadata + atomic package replacement
@@ -240,11 +240,11 @@ Actual performance varies by machine, recording length, mode and platform.
 
 | Platform | Format | Direct Download |
 |:---|:---|:---:|
-| **macOS (Apple Silicon)** | `.dmg` Installer | [**Download DMG (5.2 MB) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-apple-silicon.dmg) |
-| **Windows 10 / 11 (x64)** | `.msi` Windows Installer | [**Download MSI →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.msi) |
-| **Windows 10 / 11 (x64)** | `.zip` Portable Package | [**Download ZIP →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.zip) |
-| **Linux (Universal)** | `.AppImage` Executable | [**Download AppImage →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-x86_64.AppImage) |
-| **Linux (Debian / Ubuntu)** | `.deb` Package | [**Download DEB →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-amd64.deb) |
+| **macOS (Apple Silicon)** | `.dmg` Installer | [**Download DMG (5.2 MB) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-apple-silicon.dmg) |
+| **Windows 10 / 11 (x64)** | `.msi` Windows Installer | [**Download MSI →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.msi) |
+| **Windows 10 / 11 (x64)** | `.zip` Portable Package | [**Download ZIP →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.zip) |
+| **Linux (Universal)** | `.AppImage` Executable | [**Download AppImage →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-linux-x86_64.AppImage) |
+| **Linux (Debian / Ubuntu)** | `.deb` Package | [**Download DEB →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-linux-amd64.deb) |
 
 </div>
 
@@ -257,7 +257,7 @@ This package contains:
 ```text
 README.md
 assets/
-└── speakout-v8.3.3-cinematic.gif
+└── speakout-v8.3.4-cinematic.gif
 
 docs/
 └── index.html
@@ -288,6 +288,6 @@ https://codesource18.github.io/speakout-downloads/
 [**Launch Interactive Demo**](https://codesource18.github.io/speakout-downloads/) ·
 [**Download Speakout**](https://github.com/codesource18/speakout-downloads/releases/latest)
 
-`8.3.3 Stable` · `171 / 171 tests` · `Local-first` · `macOS · Windows · Linux`
+`8.3.4 Stable` · `171 / 171 tests` · `Local-first` · `macOS · Windows · Linux`
 
 </div>

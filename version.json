@@ -1,10 +1,10 @@
 {
-  "version": "8.3.3",
-  "pub_date": "2026-10-05T16:43:46Z",
-  "notes": "Speakout v8.3.3 Stable — Local Voice Dictation & Prompt Intelligence (Apple Silicon). Features The Professional Prompt Framework, sub-2s Whisper Metal GPU acceleration, resident menu bar mode, and liquid glass HUD.",
-  "download_url": "https://github.com/codesource18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.3-apple-silicon.dmg",
-  "asset_name": "Speakout-v8.3.3-apple-silicon.dmg",
-  "asset_size": 5244479,
-  "sha256": "8bf65c18d73719457ea83592ca11b2e11333d524354edaa1c730ba247fed77a9",
-  "release_url": "https://github.com/codesource18/speakout-downloads"
+  "version": "8.3.4",
+  "pub_date": "2026-10-06T03:35:00Z",
+  "notes": "Speakout v8.3.4 Stable — High-performance local voice dictation & multi-sentence prompt intelligence for Apple Silicon, Windows, and Linux. Polished high-contrast monochrome mode, instant Whisper sensitivity, seamless in-app background updater, and zero setup guide interruption on update.",
+  "download_url": "https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-apple-silicon.dmg",
+  "asset_name": "Speakout-v8.3.4-apple-silicon.dmg",
+  "asset_size": 5238706,
+  "sha256": "15fc1c9cec6a039325be4a2b31cd8f592ffd87ad959e6619c1c5e1ba182b0e65",
+  "release_url": "https://github.com/codesource18/speakout-downloads/releases/tag/v8.3.4"
 }
