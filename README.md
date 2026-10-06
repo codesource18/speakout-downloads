@@ -121,11 +121,11 @@ Support/contact is now part of the product flow.
 # Platform setup
 
 <details open>
-<summary><strong>macOS — Apple Silicon & Intel</strong></summary>
+<summary><strong>macOS — Apple Silicon</strong></summary>
 
 <br>
 
-[**Download latest macOS release →**](https://github.com/codesource18/speakout-downloads/releases/latest)
+[**Download Speakout for macOS (.dmg) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-apple-silicon.dmg)
 
 Install Speakout, complete the first-run setup, then grant the permissions requested by the current build.
 
@@ -151,7 +151,8 @@ Hold FN → Speak → Release FN
 
 <br>
 
-[**Download latest Windows release →**](https://github.com/codesource18/speakout-downloads/releases/latest)
+- [**Download Windows Installer (.msi) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.msi)
+- [**Download Windows Portable (.zip) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.zip)
 
 Complete the microphone/system-input setup shown by Speakout.
 
@@ -164,13 +165,14 @@ Hold Control → Speak → Release
 </details>
 
 <details>
-<summary><strong>Linux</strong></summary>
+<summary><strong>Linux — x86_64</strong></summary>
 
 <br>
 
-[**Download latest Linux release →**](https://github.com/codesource18/speakout-downloads/releases/latest)
+- [**Download Linux Universal (.AppImage) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-x86_64.AppImage)
+- [**Download Linux Debian / Ubuntu (.deb) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-amd64.deb)
 
-Install the current supported package and follow the platform setup in Speakout.
+Install the package and follow the platform setup in Speakout.
 
 Linux global-hotkey and text-injection behavior can vary between desktop environments, especially X11 and Wayland.
 
@@ -236,10 +238,13 @@ Actual performance varies by machine, recording length, mode and platform.
 
 <div align="center">
 
-| macOS | Windows | Linux |
-|:---:|:---:|:---:|
-| Apple Silicon + Intel | Windows 10/11 x64 | Current supported packages |
-| [**Download →**](https://github.com/codesource18/speakout-downloads/releases/latest) | [**Download →**](https://github.com/codesource18/speakout-downloads/releases/latest) | [**Download →**](https://github.com/codesource18/speakout-downloads/releases/latest) |
+| Platform | Format | Direct Download |
+|:---|:---|:---:|
+| **macOS (Apple Silicon)** | `.dmg` Installer | [**Download DMG (5.2 MB) →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-apple-silicon.dmg) |
+| **Windows 10 / 11 (x64)** | `.msi` Windows Installer | [**Download MSI →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.msi) |
+| **Windows 10 / 11 (x64)** | `.zip` Portable Package | [**Download ZIP →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-windows-x64.zip) |
+| **Linux (Universal)** | `.AppImage` Executable | [**Download AppImage →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-x86_64.AppImage) |
+| **Linux (Debian / Ubuntu)** | `.deb` Package | [**Download DEB →**](https://github.com/codesource18/speakout-downloads/releases/download/v8.3.3/Speakout-v8.3.3-linux-amd64.deb) |
 
 </div>
 
