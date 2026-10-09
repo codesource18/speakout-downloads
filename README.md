@@ -15,8 +15,9 @@ Speakout v8.3.4 is an ultra-fast, local-first, Metal GPU-accelerated voice dicta
 - **macOS Compatibility**: macOS 12 Monterey or higher (Optimized for macOS 15 Sequoia)
 
 ### 🪟 Windows (x86_64)
-- **[Speakout-v8.3.4-windows-x64-setup.exe (Installer)](https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-windows-x64-setup.exe)** (4.9 MB)
-- **[Speakout-v8.3.4-windows-x64.zip (Portable)](https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-windows-x64.zip)** (4.8 MB)
+- **[Speakout-v8.3.4-windows-x64-setup.exe (Installer)](https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64-setup.exe)** (3.7 MB)
+- **[Speakout-v8.3.4-windows-x64.msi (MSI Package)](https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.msi)** (5.1 MB)
+- **[Speakout-v8.3.4-windows-x64.zip (Portable)](https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.zip)** (4.8 MB)
 - **Windows Compatibility**: Windows 10 & Windows 11 (64-bit)
 
 ### 🐧 Linux (x86_64)
