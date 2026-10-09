@@ -1,10 +1,28 @@
 {
   "version": "8.3.4",
-  "pub_date": "2026-10-06T06:34:57Z",
-  "notes": "Speakout v8.3.4 Stable — Local Voice Dictation & Prompt Intelligence (Apple Silicon). Features The Professional Prompt Framework, sub-2s Whisper Metal GPU acceleration, resident menu bar mode, and liquid glass HUD.",
-  "download_url": "https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-apple-silicon.dmg",
-  "asset_name": "Speakout-v8.3.4-apple-silicon.dmg",
-  "asset_size": 5276548,
-  "sha256": "d6c270ccbb50638ee4911ad534890f274f9f839b3e41be8705ee1b0afc9044c3",
-  "release_url": "https://github.com/hemanth-reddy18/speakout-downloads"
+  "pub_date": "2026-10-09T17:00:00Z",
+  "notes": "Speakout v8.3.4 Stable — Multiplatform Local Voice Dictation & Prompt Intelligence (Windows, macOS, Linux). Features The Professional Prompt Framework, on-device Whisper voice engine, background tray/hotkey resident mode, and full offline privacy.",
+  "download_url": "https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-windows-x64-setup.exe",
+  "asset_name": "Speakout-v8.3.4-windows-x64-setup.exe",
+  "asset_size": 5260729,
+  "sha256": "d04a59437dbea30b4fbb44425386667538ff251c77df96e1bcb2df0dedae343a",
+  "release_url": "https://github.com/hemanth-reddy18/speakout-downloads",
+  "platforms": {
+    "windows": {
+      "setup_exe": "https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64-setup.exe",
+      "portable_zip": "https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.zip",
+      "msi": "https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout-v8.3.4-windows-x64.msi",
+      "sha256": "d04a59437dbea30b4fbb44425386667538ff251c77df96e1bcb2df0dedae343a",
+      "size": 5260729
+    },
+    "macos": {
+      "dmg": "https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-apple-silicon.dmg",
+      "sha256": "d6c270ccbb50638ee4911ad534890f274f9f839b3e41be8705ee1b0afc9044c3",
+      "size": 5276548
+    },
+    "linux": {
+      "deb": "https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-linux-amd64.deb",
+      "appimage": "https://github.com/hemanth-reddy18/speakout-downloads/raw/refs/heads/main/Speakout-v8.3.4-linux-x86_64.AppImage"
+    }
+  }
 }
