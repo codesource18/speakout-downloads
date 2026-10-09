@@ -5,7 +5,7 @@
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN3JuMGdPQkxNc0NwQTFNbTJ0cm80dkNIaVRkVEFrb2hGU0ZvZU1sTU94S3I2SFFBSWN2TU1hODRNK3p6Zmg2MkhhZXJUMVdZbFBlU3VHc01OWWs2dk02clhCUERRc3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjY4NDk3CWZpbGU6U3BlYWtvdXQuYXBwLnRhci5negpSMTFKamFSYXlCZE95OVpHWFVQS0pFQ0d4ZzlCSHZJZ2tYaGt1MmJEWDJLQU9jdzczWVBqdGZRL1JuSDdFeitoaXdDNlB4NWVNcnlKQyt0UnA3YnJDUT09Cg==",
-      "url": "https://github.com/codesource18/speakout-downloads/releases/download/v8.3.4/Speakout.app.tar.gz"
+      "url": "https://github.com/hemanth-reddy18/speakout-downloads/releases/download/v8.3.4/Speakout.app.tar.gz"
     }
   }
 }
